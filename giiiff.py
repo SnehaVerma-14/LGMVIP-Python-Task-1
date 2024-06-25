@@ -10,11 +10,11 @@ root = tk.Tk()
 
 
 #setting title
-root.title("ProjectGurukul - GIF Creator")
+root.title("GIF Creator")
 
 
 #setting window size
-root.geometry("600x400")
+root.geometry("800x600")
 root.resizable(width=False, height=False)
 root.configure(background="#D7BDE2")
 
@@ -61,7 +61,7 @@ def create_gif():
 
 # Creating GUI
 title_label=tk.Label(root)
-title_label.configure(background="#095aaa",foreground="#ABEBC6",font="Arial 18 bold",justify="center",text="ProjectGurukul - GIF Creator")
+title_label.configure(background="#095aaa",foreground="#ABEBC6",font="Arial 18 bold",justify="center",text="GIF Creator")
 title_label.place(x=0,y=0,width=600,height=45)
 
 
@@ -76,8 +76,8 @@ input_button.place(x=380,y=70,width=160,height=40)
 
 
 range_label=tk.Label(root)
-range_label.configure(background="#D7BDE2",foreground="#333333",font="Arial 16 bold",justify="center",text="Enter Start and End Time (in seconds)")
-range_label.place(x=150,y=130,width=300,height=41)
+range_label.configure(background="#D7BDE2",foreground="#333333",font="Arial 12 bold",justify="center",text="Enter Start and End Time (in seconds)")
+range_label.place(x=180,y=130,width=300,height=41)
 
 
 start_range=tk.Entry(root)
